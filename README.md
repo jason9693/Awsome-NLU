@@ -9,7 +9,7 @@
   * [Paper](source/2017 - Deep Learning for Dialogue Systems.pdf)
 * Neural Approaches To Conversational AI-SIGIR 2018 Tutorial (2018)
   * [Slide](2018 - Neural Approaches to Conversational AI - SIGIR 2018 totorial slides.pdf)
-  * [Paper](2018 - Neural Approaches to Conversational AI - SIGIR 2018 tutorial.pdf)
+  * [Paper](source/SIGIR 2018_tutorial_paper.pdf)
 
 ## Dataset Generation
 
