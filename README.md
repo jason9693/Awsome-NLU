@@ -7,6 +7,7 @@
 * Deep Learning for Dialogue Systems (2017)
   * [Slide](source/dl_dialogue_slide.pdf)
   * [Paper](source/dl_dialogue_paper.pdf)
+  * [Review](source/dl_for_dialogiue_sys.md)
 * Neural Approaches To Conversational AI-SIGIR 2018 Tutorial (2018)
   * [Slide](source/SIGIR2018_tutorial_slide.pdf)
   * [Paper](source/SIGIR2018_tutorial_paper.pdf)
