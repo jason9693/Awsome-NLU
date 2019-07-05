@@ -1,14 +1,14 @@
-# Dialogue 관련 자료 정리
+# NLU, Dialogue 관련 자료 정리
 
 
 
 ## Overview
 
 * Deep Learning for Dialogue Systems (2017)
-  * [Slide](source/2017 - Deep Learning for Dialogue Systems - slides.pdf)
-  * [Paper](source/2017 - Deep Learning for Dialogue Systems.pdf)
+  * [Slide](source/dl_dialogue_slide.pdf)
+  * [Paper](source/dl_dialogue_paper.pdf)
 * Neural Approaches To Conversational AI-SIGIR 2018 Tutorial (2018)
-  * [Slide](2018 - Neural Approaches to Conversational AI - SIGIR 2018 totorial slides.pdf)
+  * [Slide](source/SIGIR2018_tutorial_slide.pdf)
   * [Paper](source/SIGIR 2018_tutorial_paper.pdf)
 
 ## Dataset Generation
