@@ -47,7 +47,7 @@
 ### Language Understanding
 
 * DBN, DNN -> DI와 UID에 사용.
-* RNN : Slot Filling에 있어서, 딥러닝을 **Feature Generator** 관점으로 바라본다. 그리고 뉴럴넷 구조를 [CRF]([https://ko.wikipedia.org/wiki/%EC%A1%B0%EA%B1%B4%EB%B6%80_%EB%AC%B4%EC%9E%91%EC%9C%84%EC%9E%A5](https://ko.wikipedia.org/wiki/조건부_무작위장)) 와 함께 merge한다. 이후 Slot Filling을 위해 RNN을 Sequence Labelling에 사용한다. 이러한 구조는 나중에 여러 도메인에서 Slot Filling과 Intent Detection에 동시에 사용되는 구조로 확장된다. 
+* RNN : Slot Filling에 있어서, 딥러닝을 **Feature Generator** 관점으로 바라본다. 그리고 뉴럴넷 구조를 [CRF](https://ko.wikipedia.org/wiki/%EC%A1%B0%EA%B1%B4%EB%B6%80_%EB%AC%B4%EC%9E%91%EC%9C%84%EC%9E%A5) 와 함께 merge한다. 이후 Slot Filling을 위해 RNN을 Sequence Labelling에 사용한다. 이러한 구조는 나중에 여러 도메인에서 Slot Filling과 Intent Detection에 동시에 사용되는 구조로 확장된다. 
 * E2E의 메모리 네트워크는 상대적으로 긴 term의 knowledge context와 짧은 term의 dialogue context를 intergrate하는데에 좋은 메커니즘을 가짐을 증명하였댜. 
 
 ### Dialogue Management
