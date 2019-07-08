@@ -57,4 +57,5 @@
 
 ### Natural Language Generation
 
-* RNN베이스의 NLG는 unaigned된 데이터를 sentence planning과 surface realization으로 동시에 optimizing 하는것으로 학습이 가능하다.
+* RNN베이스의 NLG는 unaigned된 데이터를 sentence planning과 surface realization으로 동시에 optimizing 하는것으로 학습이 가능하다. 그리고 또한, language variation(언어 변이) 을  output의 후보들중에 샘플링하는 기법을 사용하여 쉽게 처리할수 있다.
+* 더 나아가, nl을 생성하는 동안, 의미 반복을 방지하기 위해 사용되는 dialgue act를 제어하기 위한 gating 메커니즘을 사전 작업으로 추가하는것으로 더 나은 성능을 보인다. 
