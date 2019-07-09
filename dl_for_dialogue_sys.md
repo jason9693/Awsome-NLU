@@ -48,6 +48,7 @@
 
 * DBN, DNN -> DI와 UID에 사용.
 * RNN : Slot Filling에 있어서, 딥러닝을 **Feature Generator** 관점으로 바라본다. 그리고 뉴럴넷 구조를 [CRF](https://ko.wikipedia.org/wiki/%EC%A1%B0%EA%B1%B4%EB%B6%80_%EB%AC%B4%EC%9E%91%EC%9C%84%EC%9E%A5) 와 함께 merge한다. 이후 Slot Filling을 위해 RNN을 Sequence Labelling에 사용한다. 이러한 구조는 나중에 여러 도메인에서 Slot Filling과 Intent Detection에 동시에 사용되는 구조로 확장된다. 
+* cf) Bio 태깅
 * E2E의 메모리 네트워크는 상대적으로 긴 term의 knowledge context와 짧은 term의 dialogue context를 intergrate하는데에 좋은 메커니즘을 가짐을 증명하였댜. 
 
 ### Dialogue Management
@@ -59,3 +60,6 @@
 
 * RNN베이스의 NLG는 unaigned된 데이터를 sentence planning과 surface realization으로 동시에 optimizing 하는것으로 학습이 가능하다. 그리고 또한, language variation(언어 변이) 을  output의 후보들중에 샘플링하는 기법을 사용하여 쉽게 처리할수 있다.
 * 더 나아가, nl을 생성하는 동안, 의미 반복을 방지하기 위해 사용되는 dialgue act를 제어하기 위한 gating 메커니즘을 사전 작업으로 추가하는것으로 더 나은 성능을 보인다. 
+
+
+
